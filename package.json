@@ -1,0 +1,22 @@
+{
+  "name": "spotifymusicapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "start": "yarn run build && live-server dist"
+  },
+  "repository": "https://github.com/gladys1230/spotifymusicapp.git",
+  "author": "Kit Chan",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "live-server": "^1.2.1",
+    "netlify": "^2.4.8",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
